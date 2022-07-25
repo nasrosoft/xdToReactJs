@@ -9,14 +9,20 @@ const Header = () => {
       <image className="logo">Miro</image>
       <div className="shortcut">
         <span>
-          <img src={search} alt="dashboard" />
+          <a href="#">
+            <img src={search} alt="dashboard" />
+          </a>
         </span>
         <span>
-          <img src={notifications} alt="dashboard" className="notification" />
-          <img src={ellipse} alt="dashboard" className="ellipse" />
+          <a href="#">
+            <img src={notifications} alt="dashboard" className="notification" />
+            <img src={ellipse} alt="dashboard" className="ellipse" />
+          </a>
         </span>
         <span>
-          <img src={profile} alt="dashboard" />
+          <a href="#">
+            <img src={profile} alt="dashboard" />
+          </a>
         </span>
       </div>
     </div>

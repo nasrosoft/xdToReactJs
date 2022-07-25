@@ -5,7 +5,7 @@ import LatestTichets from './LatestTichets';
 
 const BodyConainer = () => {
   return (
-    <div>
+    <div className="bodyDashboard">
       <LeadSales />
       <Referrals />
       <UsersActivity />

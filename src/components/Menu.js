@@ -12,13 +12,13 @@ const Menu = () => {
     <div className="Menu">
       <ul>
         <li>
-          <a>
+          <a href="#">
             <img src={dashboard} alt="dashboard" width="30px" />
             Dashboard
           </a>
         </li>
         <li>
-          <a>
+          <a href="#">
             <img src={tradingView} alt="tradingView" width="30px" />
             Tradeview
           </a>
@@ -30,32 +30,32 @@ const Menu = () => {
           </a>
         </li>
         <li>
-          <a>
+          <a href="#">
             <img src={analytics} alt="analytics" width="30px" />
             Traffic analyzer
           </a>
         </li>
         <li>
-          <a>
+          <a href="#">
             <img src={usersManager} alt="usersManager" width="30px" />
             Users manager
           </a>
         </li>
         <li>
-          <a>
+          <a href="#">
             <img src={calendar} alt="calendar" width="30px" />
             Calendar
           </a>
         </li>
         <li>
-          <a>
+          <a href="#">
             <img src={messages} alt="messages" width="30px" />
             Messages
             <span>8</span>
           </a>
         </li>
         <li>
-          <a>
+          <a href="#">
             <img src={payments} alt="payments" width="30px" />
             Payments
           </a>
