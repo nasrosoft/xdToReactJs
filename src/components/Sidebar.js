@@ -1,12 +1,6 @@
 import Logout from './Logout';
 import Menu from './Menu';
 
-const hrStyle = {
-  color: '#EBF2F7',
-  backgroundColor: '#EBF2F7',
-  height: 2,
-  border: 'none',
-};
 const Sidebar = () => {
   return (
     <div className="Sidebar">
@@ -15,9 +9,9 @@ const Sidebar = () => {
         <h6>Miroslav Minev</h6>
         <span>$ 52</span>
       </div>
-      <hr style={hrStyle} />
+      <hr />
       <Menu />
-      <hr style={hrStyle} />
+      <hr />
       <Logout />
     </div>
   );

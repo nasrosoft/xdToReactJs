@@ -9,6 +9,7 @@ html {
   padding-bottom: 8px;
 }
 .logo {
+  display: contents;
   width: 100px;
   height: 44px;
   padding: 4px;
@@ -47,7 +48,7 @@ html {
 }
 
 .Sidebar {
-  width: 390px;
+  width: 287px;
   height: 803px;
   border-radius: 12px;
   padding: 12px 31px;
@@ -64,7 +65,8 @@ html {
   border-radius: 50%;
 }
 .profile h6 {
-  width: 255px;
+  width: 164px;
+  padding-left: 11px;
   font-size: 18px;
   float: right;
 }
@@ -98,11 +100,45 @@ ul li a span {
   background-color: #52575d;
 }
 .leadSales {
-  width: 746px;
-  height: 415px;
+  width: 552px;
+  height: 357px;
+  padding: 0px 16px;
   border-radius: 8px;
   background-color: #ffffff;
 }
 .bodyDashboard {
+  display: grid;
+  grid-template-columns: 584px 239px;
+  column-gap: 15px;
   padding-left: 14px;
+}
+hr {
+  width: 93%;
+  height: 2px;
+  border: none;
+  color: #EBF2F7;
+  background-color: #EBF2F7;
+}
+.info{
+  display: flex;
+  padding: 0 34px;
+  justify-content: space-between;
+}
+.referelProfile .EatchReferral{
+  display: flex;
+  height: 40px;
+  padding: 4px 0;
+  justify-content: space-between;
+}
+.EatchReferral h6, 
+.EatchReferral p {
+  align-self: center;
+  
+}
+.ReferralBar {
+  width: 239px;
+  height: 803px;
+  border-radius: 12px;
+  padding: 12px 31px;
+  background-color: #ffffff;
 }

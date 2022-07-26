@@ -24,7 +24,7 @@ const Menu = () => {
           </a>
         </li>
         <li>
-          <a>
+          <a href="#">
             <img src={fileManager} alt="fileManager" width="30px" />
             File manager
           </a>

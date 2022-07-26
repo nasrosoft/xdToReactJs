@@ -6,7 +6,7 @@ import ellipse from '../images/svg/icon/Ellipse_10.svg';
 const Header = () => {
   return (
     <div className="header">
-      <image className="logo">Miro</image>
+      <h6 className="logo">Miro</h6>
       <div className="shortcut">
         <span>
           <a href="#">

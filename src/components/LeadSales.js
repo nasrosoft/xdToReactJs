@@ -53,7 +53,10 @@ export const data = {
 const LeadSales = () => {
   return (
     <div className="leadSales">
-      LeadSalesd
+      <span className="info">
+        <p>LeadSalesd</p>
+        <p>ⓘ</p>
+      </span>
       <hr />
       <Bar data={data} />
     </div>
