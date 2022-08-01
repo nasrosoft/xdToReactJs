@@ -52,7 +52,7 @@ export const data = {
 };
 const LeadSales = () => {
   return (
-    <div className="leadSales">
+    <div className="leadSales box box2">
       <span className="info">
         <p>LeadSalesd</p>
         <p>ⓘ</p>

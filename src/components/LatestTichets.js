@@ -1,5 +1,5 @@
 const LatestTichets = () => {
-  return <div>LatestTichets</div>;
+  return <div className=" box box5">LatestTichets</div>;
 };
 
 export default LatestTichets;

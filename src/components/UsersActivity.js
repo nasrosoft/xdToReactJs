@@ -1,5 +1,5 @@
 const UsersActivity = () => {
-  return <div>UsersActivity</div>;
+  return <div className=" box box4">UsersActivity</div>;
 };
 
 export default UsersActivity;

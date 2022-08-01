@@ -1,3 +1,5 @@
+import leadMore from '../images/svg/load_more.svg';
+
 const referralsData = [
   {
     profileImage: '../images/img/Profile_image.png',
@@ -6,53 +8,53 @@ const referralsData = [
   },
   {
     profileImage: '../images/img/Profile_image.png',
-    profileName: 'Francesca Metts',
+    profileName: 'Malcolm Quaday',
+    referral: 21.1,
+  },
+  {
+    profileImage: '../images/img/Profile_image.png',
+    profileName: 'Lindsey Rivard',
+    referral: 21.1,
+  },
+  {
+    profileImage: '../images/img/Profile_image.png',
+    profileName: 'Elizabeth Hurton',
+    referral: 21.1,
+  },
+  {
+    profileImage: '../images/img/Profile_image.png',
+    profileName: 'Albert Pollock',
     referral: 21.1,
   },
   {
     profileImage: '../images/img/Profile_image.png',
     profileName: 'Francesca Metts',
-    referral: 21.1,
+    referral: 9.6,
   },
   {
     profileImage: '../images/img/Profile_image.png',
-    profileName: 'Francesca Metts',
-    referral: 21.1,
+    profileName: 'Malcolm Quaday',
+    referral: 9.5,
   },
   {
     profileImage: '../images/img/Profile_image.png',
-    profileName: 'Francesca Metts',
-    referral: 21.1,
+    profileName: 'Lindsey Rivard',
+    referral: 8.9,
   },
   {
     profileImage: '../images/img/Profile_image.png',
-    profileName: 'Francesca Metts',
-    referral: 21.1,
+    profileName: 'Elizabeth Hurton',
+    referral: 8.1,
   },
   {
     profileImage: '../images/img/Profile_image.png',
-    profileName: 'Francesca Metts',
-    referral: 21.1,
-  },
-  {
-    profileImage: '../images/img/Profile_image.png',
-    profileName: 'Francesca Metts',
-    referral: 21.1,
-  },
-  {
-    profileImage: '../images/img/Profile_image.png',
-    profileName: 'Francesca Metts',
-    referral: 21.1,
-  },
-  {
-    profileImage: '../images/img/Profile_image.png',
-    profileName: 'Francesca Metts',
-    referral: 21.1,
+    profileName: 'Albert Pollock',
+    referral: 7.1,
   },
 ];
 const Referrals = () => {
   return (
-    <div className="ReferralBar">
+    <div className="ReferralBar box box3">
       <div className="referelProfile">
         {referralsData.map((profile) => {
           return (
@@ -68,7 +70,9 @@ const Referrals = () => {
           );
         })}
       </div>
-      <hr />
+      <div>
+        <img src={leadMore} alt="leadMore" className="leadMore" />
+      </div>
     </div>
   );
 };
