@@ -11,7 +11,7 @@ const Menu = () => {
   return (
     <div className="Menu">
       <ul>
-        <li>
+        <li className="active">
           <a href="#">
             <img src={dashboard} alt="dashboard" width="30px" />
             Dashboard
