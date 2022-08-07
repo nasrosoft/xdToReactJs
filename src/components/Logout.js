@@ -1,5 +1,14 @@
+import loguot from '../images/svg/loguot.svg';
+
 const Logout = () => {
-  return 'this is a logout page';
+  return (
+    <div className="logoutBtn">
+      <a href="#">
+        <img className="logout" src={loguot} alt="loguot" width="30px" />
+        Logout
+      </a>
+    </div>
+  );
 };
 
 export default Logout;
