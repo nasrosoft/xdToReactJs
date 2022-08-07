@@ -55,7 +55,9 @@ const LeadSales = () => {
     <div className="leadSales box box2">
       <span className="info">
         <p>LeadSalesd</p>
-        <p>ⓘ</p>
+        <p className="iInfo">
+          <a href="#">ⓘ</a>
+        </p>
       </span>
       <hr />
       <Bar data={data} />
