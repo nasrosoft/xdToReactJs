@@ -1,7 +1,6 @@
 import search from '../images/svg/icon/search.svg';
 import notifications from '../images/svg/icon/notifications.svg';
 import profile from '../images/svg/icon/profile.svg';
-import ellipse from '../images/svg/icon/Ellipse_10.svg';
 
 const Header = () => {
   return (
@@ -13,10 +12,9 @@ const Header = () => {
             <img src={search} alt="dashboard" />
           </a>
         </span>
-        <span>
+        <span className="notification">
           <a href="#">
-            <img src={notifications} alt="dashboard" className="notification" />
-            <img src={ellipse} alt="dashboard" className="ellipse" />
+            <img src={notifications} alt="dashboard" />
           </a>
         </span>
         <span>
