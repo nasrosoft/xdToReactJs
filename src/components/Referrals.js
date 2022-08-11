@@ -1,4 +1,4 @@
-import leadMore from '../images/svg/load_more.svg';
+import loadMore from '../images/svg/load_more.svg';
 
 const referralsData = [
   {
@@ -66,6 +66,16 @@ const referralsData = [
     profileName: 'Lindsey Rivard',
     referral: 8.9,
   },
+  {
+    profileImage: '../images/img/Oval-4.png',
+    profileName: 'Malcolm Quaday',
+    referral: 9.5,
+  },
+  {
+    profileImage: '../images/img/Oval-5.png',
+    profileName: 'Lindsey Rivard',
+    referral: 8.9,
+  },
 ];
 const Referrals = () => {
   return (
@@ -92,11 +102,11 @@ const Referrals = () => {
             </div>
           );
         })}
-        <div className="lead">
-          <a href="#">
-            <img src={leadMore} alt="leadMore" className="leadMore" />
-          </a>
-        </div>
+      </div>
+      <div className="load">
+        <a href="#">
+          <img src={loadMore} alt="loadMore" className="loadMore" />
+        </a>
       </div>
     </div>
   );

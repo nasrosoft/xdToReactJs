@@ -14,7 +14,6 @@ const Sidebar = () => {
       </div>
       <hr />
       <Menu />
-      <hr />
       <Logout />
     </div>
   );

@@ -50,6 +50,7 @@ html {
 }
 
 .Sidebar {
+  position: relative;
   border-radius: 12px;
   padding: 12px 31px;
   box-shadow: 5px 4px 8px #88888824;
@@ -178,6 +179,7 @@ hr {
 .ReferralBar {
   width: 239px;
   height: 803px;
+  position: relative;
   border-radius: 12px;
   padding: 12px 31px;
   overflow: hidden;
@@ -187,18 +189,18 @@ hr {
 .imgProfile{
   border-radius: 50%;
 }
-.leadMore{
-  width: 408px;
+.load{
+  position: absolute;
+  bottom: 0;
+  left: -25px;
 }
-.lead{
-  margin-top: -123px;
-  margin-left: -88px;
-}
-.leadUsers{
-  margin-top: -97px;
-  margin-left: -21px;
+.loadUsers{
+  position: absolute;
+  bottom: 0;
+  left: -16px
 }
 .UsersActivity{
+  position: relative;
   border-radius: 8px;
   height: 328px;
   overflow: hidden;
@@ -206,16 +208,15 @@ hr {
   background-color: #ffffff;
 }
 .user{
-  width: 224px;
+  width: 190px;
   display: flex;
   align-items: center;
+  position: absolute;
+  top: 17px;
+  left: 60px;
   border-radius: 12px;
   background-color: #ffffff;
-  position: absolute;
-  z-index: 999;
   justify-content: space-evenly;
-  margin-top: 27px;
-  margin-left: 16%;
   box-shadow: 8px 13px 5px #88888824;
 }
 .ticketId{
@@ -268,16 +269,14 @@ ul li a {
 .ticketList{
   padding: 1px 12px;
 }
-.usersLoad {
-  width: 400px;
-  margin-top: -43px;
-  margin-left: 30px;
-  position: relative;
-}
+
 .logout{
   padding: 0 12px;
 }
 .logoutBtn{
+  width: inherit;
+  position: absolute;
+  bottom: 27px;
   font-size: 20px;
 }
 .notification::before{

@@ -1,10 +1,18 @@
-import leadMore from '../images/svg/load_more.svg';
+import loadMore from '../images/svg/load_more.svg';
 
 const LatestTichets = () => {
   const tickets = [
     {
       id: 4231852,
       discreption: 'Sed ut perspiciatis unde omnis iste',
+    },
+    {
+      id: 4231852,
+      discreption: 'Sed ut perspiciatis unde omnis iste natus',
+    },
+    {
+      id: 4231852,
+      discreption: 'totam rem aperiam',
     },
     {
       id: 4231852,
@@ -41,9 +49,9 @@ const LatestTichets = () => {
           );
         })}
       </ul>
-      <div className="leadUsers">
+      <div className="loadUsers">
         <a href="#">
-          <img src={leadMore} alt="leadMore" className="usersLoad" />
+          <img src={loadMore} alt="loadMore" className="usersLoad" />
         </a>
       </div>
     </div>
