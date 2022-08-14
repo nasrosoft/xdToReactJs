@@ -191,7 +191,7 @@ hr {
 }
 .load{
   position: absolute;
-  bottom: 0;
+  bottom: -6px;
   left: -25px;
 }
 .loadUsers{

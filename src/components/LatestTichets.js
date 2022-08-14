@@ -36,7 +36,7 @@ const LatestTichets = () => {
       <ul>
         {tickets.map((ticket) => {
           return (
-            <>
+            <div key={tickets.indexOf(ticket)}>
               <li className="ticketList">
                 <span className="ticket">
                   Ticket
@@ -45,7 +45,7 @@ const LatestTichets = () => {
                 <p className="ticketDisc">{ticket.discreption}</p>
               </li>
               <hr />
-            </>
+            </div>
           );
         })}
       </ul>

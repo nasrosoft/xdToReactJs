@@ -1,7 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Map, Marker, MarkerLayout } from 'yandex-map-react';
+import { MapContainer } from 'react-leaflet/MapContainer';
+import { TileLayer } from 'react-leaflet/TileLayer';
+import { useMap } from 'react-leaflet/hooks';
 
+const LeafletMap = () => (
+  <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
+    <TileLayer
+      attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+    />
+  </MapContainer>
+);
 const UsersActivity = (props) => {
   return (
     <div className="UsersActivity box box4">
@@ -12,17 +22,7 @@ const UsersActivity = (props) => {
         </p>
       </span>
       <hr />
-      <Map center={[37.75837409926092, -122.44377752518518]} zoom={10}>
-        <Marker lat={37.739657514352544} lon={-122.4361199316995} />
-        <div className="user">
-          <img
-            // src={require(profile.profileImage)}
-            src={require('../images/img/Profile_image.png')}
-            alt="userName"
-          />
-          <p>Malcolm Quaday</p>
-        </div>
-      </Map>
+      <LeafletMap />
     </div>
   );
 };
